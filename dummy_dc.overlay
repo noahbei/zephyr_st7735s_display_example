@@ -4,14 +4,14 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-/ {
-	chosen {
-		zephyr,display = &dummy_dc;
-	};
+// / {
+// 	chosen {
+// 		zephyr,display = &dummy_dc;
+// 	};
 
-	dummy_dc: dummy_dc {
-		compatible = "zephyr,dummy-dc";
-		height = <240>;
-		width = <320>;
-	};
-};
+// 	dummy_dc: dummy_dc {
+// 		compatible = "zephyr,dummy-dc";
+// 		height = <128>;
+// 		width = <128>;
+// 	};
+// };
